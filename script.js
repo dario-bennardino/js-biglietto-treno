@@ -22,3 +22,7 @@ if (etaPasseggero < 18){
 prezzoTotale = prezzoTotale.toFixed(2);
 
 // Stampa prezzo biglietto
+console.log("Il prezzo totale del viaggio è: €" + prezzoTotale);
+
+document.getElementById('biglietto').innerHTML = 'Il prezzo del biglietto é: € ' + prezzoTotale;
+
